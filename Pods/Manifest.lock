@@ -1,0 +1,15 @@
+PODS:
+  - Alamofire (4.2.0)
+  - ASValueTrackingSlider (0.12.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - ASValueTrackingSlider
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  ASValueTrackingSlider: 5261de3fcf00adb339efc93885e8f0bc99e703cd
+
+PODFILE CHECKSUM: 0f2732c7f9088372f0cce1b603ceb201bd610efc
+
+COCOAPODS: 1.2.0.beta.1

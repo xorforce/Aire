@@ -1,0 +1,6 @@
+framework module Pods_Aire {
+  umbrella header "Pods-Aire-umbrella.h"
+
+  export *
+  module * { export * }
+}

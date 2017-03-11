@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A88E14BFEC4D07BDED09662 /* Pods_Aire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDD56545B72CD623DCAE142 /* Pods_Aire.framework */; };
 		6B351AE21E728C620041D4DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B351AE11E728C620041D4DC /* AppDelegate.swift */; };
-		6B351AE41E728C620041D4DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B351AE31E728C620041D4DC /* ViewController.swift */; };
+		6B351AE41E728C620041D4DC /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B351AE31E728C620041D4DC /* MainVC.swift */; };
 		6B351AE71E728C620041D4DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B351AE51E728C620041D4DC /* Main.storyboard */; };
 		6B351AE91E728C620041D4DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B351AE81E728C620041D4DC /* Assets.xcassets */; };
 		6B351AEC1E728C620041D4DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B351AEA1E728C620041D4DC /* LaunchScreen.storyboard */; };
+		6B351AFA1E72A4CA0041D4DC /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B351AF91E72A4CA0041D4DC /* Location.swift */; };
+		6B351AFC1E72A60B0041D4DC /* CurrentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B351AFB1E72A60B0041D4DC /* CurrentData.swift */; };
+		6B351AFE1E72B3A70041D4DC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B351AFD1E72B3A70041D4DC /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6B351ADE1E728C620041D4DC /* Aire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B351AE11E728C620041D4DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6B351AE31E728C620041D4DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B351AE31E728C620041D4DC /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		6B351AE61E728C620041D4DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B351AE81E728C620041D4DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B351AEB1E728C620041D4DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B351AED1E728C620041D4DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B351AF91E72A4CA0041D4DC /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		6B351AFB1E72A60B0041D4DC /* CurrentData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentData.swift; sourceTree = "<group>"; };
+		6B351AFD1E72B3A70041D4DC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6BDD56545B72CD623DCAE142 /* Pods_Aire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1A17288A405B54BE9E51C98 /* Pods-Aire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aire.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aire/Pods-Aire.debug.xcconfig"; sourceTree = "<group>"; };
+		D9497BA3E97EB84B8BFE0831 /* Pods-Aire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aire.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aire/Pods-Aire.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A88E14BFEC4D07BDED09662 /* Pods_Aire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2131F899D2631D430864E6A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BDD56545B72CD623DCAE142 /* Pods_Aire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6B351AD51E728C620041D4DC = {
 			isa = PBXGroup;
 			children = (
 				6B351AE01E728C620041D4DC /* Aire */,
 				6B351ADF1E728C620041D4DC /* Products */,
+				871109A59D77E3A4E60CFD7F /* Pods */,
+				2131F899D2631D430864E6A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +75,58 @@
 		6B351AE01E728C620041D4DC /* Aire */ = {
 			isa = PBXGroup;
 			children = (
-				6B351AE11E728C620041D4DC /* AppDelegate.swift */,
-				6B351AE31E728C620041D4DC /* ViewController.swift */,
+				6B351AF61E72A4960041D4DC /* Model */,
+				6B351AF51E72A48F0041D4DC /* View */,
+				6B351AF41E72A4880041D4DC /* Controller */,
+				6B351AF31E72A4810041D4DC /* Utils */,
 				6B351AE51E728C620041D4DC /* Main.storyboard */,
 				6B351AE81E728C620041D4DC /* Assets.xcassets */,
 				6B351AEA1E728C620041D4DC /* LaunchScreen.storyboard */,
-				6B351AED1E728C620041D4DC /* Info.plist */,
 			);
 			path = Aire;
+			sourceTree = "<group>";
+		};
+		6B351AF31E72A4810041D4DC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6B351AE11E728C620041D4DC /* AppDelegate.swift */,
+				6B351AED1E728C620041D4DC /* Info.plist */,
+				6B351AF91E72A4CA0041D4DC /* Location.swift */,
+				6B351AFD1E72B3A70041D4DC /* Constants.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		6B351AF41E72A4880041D4DC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6B351AE31E728C620041D4DC /* MainVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		6B351AF51E72A48F0041D4DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6B351AF61E72A4960041D4DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B351AFB1E72A60B0041D4DC /* CurrentData.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		871109A59D77E3A4E60CFD7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1A17288A405B54BE9E51C98 /* Pods-Aire.debug.xcconfig */,
+				D9497BA3E97EB84B8BFE0831 /* Pods-Aire.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +136,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B351AF01E728C620041D4DC /* Build configuration list for PBXNativeTarget "Aire" */;
 			buildPhases = (
+				2AFF019D9560216901FC33AD /* [CP] Check Pods Manifest.lock */,
 				6B351ADA1E728C620041D4DC /* Sources */,
 				6B351ADB1E728C620041D4DC /* Frameworks */,
 				6B351ADC1E728C620041D4DC /* Resources */,
+				4FF00D14E045A5307F4C381F /* [CP] Embed Pods Frameworks */,
+				6B8F7054FC8545A5F8F0ECDF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,12 +200,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2AFF019D9560216901FC33AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4FF00D14E045A5307F4C381F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aire/Pods-Aire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B8F7054FC8545A5F8F0ECDF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aire/Pods-Aire-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6B351ADA1E728C620041D4DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B351AE41E728C620041D4DC /* ViewController.swift in Sources */,
+				6B351AFE1E72B3A70041D4DC /* Constants.swift in Sources */,
+				6B351AE41E728C620041D4DC /* MainVC.swift in Sources */,
+				6B351AFC1E72A60B0041D4DC /* CurrentData.swift in Sources */,
+				6B351AFA1E72A4CA0041D4DC /* Location.swift in Sources */,
 				6B351AE21E728C620041D4DC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +376,7 @@
 		};
 		6B351AF11E728C620041D4DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1A17288A405B54BE9E51C98 /* Pods-Aire.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VG36S3M9UZ;
@@ -270,6 +390,7 @@
 		};
 		6B351AF21E728C620041D4DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9497BA3E97EB84B8BFE0831 /* Pods-Aire.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VG36S3M9UZ;
@@ -300,6 +421,7 @@
 				6B351AF21E728C620041D4DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
