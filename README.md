@@ -13,7 +13,7 @@ Aire, meaning "Air" in Latin, is a simple iOS Application, completely written in
 1. Go to the file directory and do a ```pod install```. You must have Cocoapods installed on your system. For more information on Cocoapods, visit [here](https://cocoapods.org/).
 2. Next, go to "Constants.swift" under the "Utils" folder. Hop on to line 14 and insert your AirVisual API key. You can get one [here](https://airvisual.com/api).
 3. open ```Aire.xcworkspace```
-4. Build and Run the project !
+4. Build and Run the project !😎
 
 ### Requirements
 1. Swift 3.0+
