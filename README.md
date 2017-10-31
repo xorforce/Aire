@@ -1,5 +1,5 @@
 # Aire
-Aire, meaning "Air" in Latin, is a simple iOS Application, completely written in Swift and powered by the AirVisual API, gives realtime information about the AQI(Air Quality Index) of your surroundings, so you can plan out your trip accordingly.
+Aire, meaning "Air" in Latin, is a simple iOS Application, completely written in Swift and powered by the AirVisual API, gives realtime information about the AQI (Air Quality Index) of your surroundings, so you can plan out your trip accordingly.
 <br>Screenshots: <br><br>
 ![alt_text](https://cloud.githubusercontent.com/assets/14857735/23821070/1f02ba32-064e-11e7-9a81-3fc623712b29.png)
 ![alt_text](https://cloud.githubusercontent.com/assets/14857735/23821071/1f0323f0-064e-11e7-98ec-ff011457440c.png)
